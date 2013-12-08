@@ -27,3 +27,22 @@ Make sure to include the `iliveinomaha.css` stylesheet.
         <a href="http://www.iliveinomaha.com">I live in Omaha.</a>
     </div>
 
+## Browser Support
+
+### A-Grade Experience
+
+A blue banner positioned in the top corner. Includes any browser that supports the `:root` CSS selector and media queries (with a viewport greater than 30em wide). Devices that meet A-Grade requirements but not the the “native” viewport width requirement will still be listed as A-Grade.
+
+* Internet Explorer 9 and above
+* Chrome (31)
+* Safari (7)
+* Firefox (25)
+* Opera (12)
+* iOS (6)
+
+### C-Grade Experience
+
+A blue link inline on the page.
+
+* Internet Explorer 8 or below
+* Opera (9.1)
