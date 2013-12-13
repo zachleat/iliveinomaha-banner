@@ -20,18 +20,26 @@
 		width: 7em;
 		height: 7em;
 		font-size: .625em;
+		line-height: 120%;
 		overflow: hidden;
 		pointer-events: none;
 	}
 	.iliveinomaha a {
 		font-weight: normal;
 		background: #3399ff;
-		color: white;
 		width: 10em;
 		pointer-events: auto;
 		-webkit-transform: translateY(2.3em) translateX(-.8em) rotate(45deg);
 		-ms-transform: translateY(2.3em) translateX(-.8em) rotate(45deg);
 		transform: translateY(2.3em) translateX(-.8em) rotate(45deg);
+	}
+	.iliveinomaha a,
+	.iliveinomaha :link,
+	.iliveinomaha :visited {
+		color: #fff;
+	}
+	.iliveinomaha :hover {
+		background: rgba(51, 153, 255, .9);
 	}
 	.iliveinomaha.left {
 		right: auto;
