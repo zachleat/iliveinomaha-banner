@@ -16,7 +16,7 @@ Idea and original source code from [@mattdsteele](https://github.com/mattdsteele
 ## Features
 
 * Starts in markup with a normal text link.
-* On larger screens (and when CSS transforms are supported), positions as a banner in the top left or right corner.
+* When CSS transforms are supported, positions as a banner in the top left or right corner.
 * Does not require JavaScript.
 
 ## Markup
