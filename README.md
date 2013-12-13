@@ -3,7 +3,7 @@ iliveinomaha-banner
 
 Retina friendly progressively enhanced banner for iliveinomaha.com
 
-The banner listed on [http://iliveinomaha.com/spread-the-word.php] is a blurry image on HDPi/retina screens. We can do better!
+The banner listed on [iliveinomaha.com](http://iliveinomaha.com/spread-the-word.php) is a blurry image on HDPi/retina screens. We can do better!
 
 Idea and original source code from [@mattdsteele](https://github.com/mattdsteele/matthew-steele.com).
 
@@ -39,7 +39,7 @@ Make sure to include the `iliveinomaha.css` stylesheet.
 
 ### A-Grade Experience
 
-A blue banner positioned in the top corner. Includes any browser that supports the `:root` CSS selector and media queries (with a viewport greater than 30em wide). Devices that meet A-Grade requirements but not the the “native” viewport width requirement will still be listed as A-Grade.
+A blue banner positioned in the top corner. Includes any browser that supports media queries.
 
 * Internet Explorer 9 and above
 * Chrome (31)
