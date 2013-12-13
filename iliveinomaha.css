@@ -12,38 +12,59 @@
 	color: #3399ff;
 }
 
-/* Use :root to quick-n-dirty scope to newer browsers (relies on transform) */
-@media (min-width: 30em) {
-	:root .iliveinomaha {
+@media only all {
+	.iliveinomaha {
 		position: absolute;
 		top: 0;
 		right: 0;
-		width: 9em;
-		height: 9em;
+		width: 7em;
+		height: 7em;
+		font-size: .625em;
 		overflow: hidden;
 		pointer-events: none;
 	}
-	:root .iliveinomaha a {
+	.iliveinomaha a {
 		font-weight: normal;
 		background: #3399ff;
 		color: white;
-		width: 15em;
+		width: 10em;
 		pointer-events: auto;
-		-webkit-transform: translateY(2.2em) translateX(-1.5em) rotate(45deg);
-		transform: translateY(2.2em) translateX(-1.5em) rotate(45deg);
+		-webkit-transform: translateY(2.3em) translateX(-.8em) rotate(45deg);
+		-ms-transform: translateY(2.3em) translateX(-.8em) rotate(45deg);
+		transform: translateY(2.3em) translateX(-.8em) rotate(45deg);
 	}
-	:root .iliveinomaha.left {
+	.iliveinomaha.left {
 		right: auto;
 		left: 0;
 	}
-	:root .iliveinomaha.left a {
+	.iliveinomaha.left a {
+		-webkit-transform: translateY(2.3em) translateX(-2em) rotate(-45deg);
+		-ms-transform: translateY(2.3em) translateX(-2em) rotate(-45deg);
+		transform: translateY(2.3em) translateX(-2em) rotate(-45deg);
+	}
+}
+
+@media (min-width: 30em) {
+	.iliveinomaha {
+		font-size: 1em;
+		width: 9em;
+		height: 9em;
+	}
+	.iliveinomaha a {
+		width: 15em;
+		-webkit-transform: translateY(2.2em) translateX(-1.5em) rotate(45deg);
+		-ms-transform: translateY(2.2em) translateX(-1.5em) rotate(45deg);
+		transform: translateY(2.2em) translateX(-1.5em) rotate(45deg);
+	}
+	.iliveinomaha.left a {
 		-webkit-transform: translateY(2.2em) translateX(-4.5em) rotate(-45deg);
+		-ms-transform: translateY(2.2em) translateX(-4.5em) rotate(-45deg);
 		transform: translateY(2.2em) translateX(-4.5em) rotate(-45deg);
 	}
 }
 
 @media (min-width: 49em) {
-	:root .iliveinomaha {
+	.iliveinomaha {
 		position: fixed;
 	}
 }
