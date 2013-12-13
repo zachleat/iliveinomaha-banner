@@ -1,0 +1,21 @@
+{
+  "name": "iliveinomaha",
+  "version": "0.1.2",
+  "homepage": "https://github.com/zachleat/iliveinomaha-banner",
+  "authors": [
+    "Zach Leatherman <zachleatherman@gmail.com>"
+  ],
+  "description": "Retina friendly progressively enhanced banner for iliveinomaha.com",
+  "main": "iliveinomaha.css",
+  "keywords": [
+    "omaha"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
