@@ -9,6 +9,10 @@ Idea and original source code from [@mattdsteele](https://github.com/mattdsteele
 
 ## [Demo](http://zachleat.github.io/iliveinomaha-banner/example.html)
 
+## Install
+
+    bower install iliveinomaha
+
 ## Features
 
 * Starts in markup with a normal text link.
