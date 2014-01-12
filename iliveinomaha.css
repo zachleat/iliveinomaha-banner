@@ -70,9 +70,3 @@
 		transform: translateY(2.2em) translateX(-4.5em) rotate(-45deg);
 	}
 }
-
-@media (min-width: 49em) {
-	.iliveinomaha {
-		position: fixed;
-	}
-}
