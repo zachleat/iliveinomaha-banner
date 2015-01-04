@@ -5,7 +5,7 @@ Retina friendly progressively enhanced banner for iliveinomaha.com
 
 The banner listed on [iliveinomaha.com](http://iliveinomaha.com/spread-the-word.php) is a blurry image on HDPi/retina screens. We can do better!
 
-Idea and original source code from [@mattdsteele](https://github.com/mattdsteele/matthew-steele.com).
+Idea and original source code from [@mattdsteele](https://github.com/mattdsteele/matthew-steele.com) introduced in his blog post [A Fresh Coat of Paint](http://www.matthew-steele.com/a-fresh-coat-of-paint/).
 
 ## [Demo](http://zachleat.github.io/iliveinomaha-banner/example.html)
 
