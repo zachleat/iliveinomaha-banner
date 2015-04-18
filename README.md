@@ -19,6 +19,8 @@ Idea and original source code from [@mattdsteele](https://github.com/mattdsteele
 
     bower install iliveinomaha
 
+### Or manually download the CSS file above.
+
 ## Features
 
 * Starts in markup with a normal text link.
