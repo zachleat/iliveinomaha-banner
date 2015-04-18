@@ -11,6 +11,12 @@ Idea and original source code from [@mattdsteele](https://github.com/mattdsteele
 
 ## Install
 
+### NPM
+
+    npm install iliveinomaha --save
+
+### Or Bower
+
     bower install iliveinomaha
 
 ## Features
