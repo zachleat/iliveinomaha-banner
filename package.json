@@ -1,0 +1,19 @@
+{
+  "name": "iliveinomaha",
+  "version": "0.1.5",
+  "description": "iliveinomaha-banner",
+  "main": "iliveinomaha.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zachleat/iliveinomaha-banner.git"
+  },
+  "author": "Zach Leatherman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zachleat/iliveinomaha-banner/issues"
+  },
+  "homepage": "https://github.com/zachleat/iliveinomaha-banner"
+}
